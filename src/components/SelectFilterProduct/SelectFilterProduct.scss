@@ -1,0 +1,42 @@
+.selectContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  background-color: white;
+  overflow: hidden;
+  align-items: center;
+  top: 16px;
+  right: 0;
+  z-index: 2;
+  box-shadow: grey 0px 0px 5px 0px, grey 0px 0px 1px 0px;
+  width: 260px;
+
+  div {
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+
+  .selectFilterProduct {
+    display: flex;
+    background-color: white;
+    padding: 12px 18px;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+
+  .hightPrice,
+  .lowPrice {
+    display: none;
+    background-color: white;
+    padding: 12px 18px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .show {
+    display: block;
+  }
+}
