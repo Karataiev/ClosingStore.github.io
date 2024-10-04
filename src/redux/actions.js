@@ -4,6 +4,7 @@ export const CHANGE_COUNT = "CHANGE_COUNT";
 export const SORT_BY_LOW_PRICE = "SORT_BY_LOW_PRICE";
 export const SORT_BY_HIGH_PRICE = "SORT_BY_HIGH_PRICE";
 export const GET_TYPE_OF_SORTING = "GET_TYPE_OF_SORTING";
+export const SORT_BY_POPULAR = "SORT_BY_POPULAR";
 
 export const handleBurgerButton = (payload) => {
   return { type: HANDLE_BURGER_BUTTON, payload: payload };
@@ -23,6 +24,10 @@ export const sortByLowPrice = (payload) => {
 
 export const sortByHighPrice = (payload) => {
   return { type: SORT_BY_LOW_PRICE, payload: payload };
+};
+
+export const sortByPopular = (payload) => {
+  return { type: SORT_BY_POPULAR, payload: payload };
 };
 
 export const getTypeOfSorting = (payload) => {

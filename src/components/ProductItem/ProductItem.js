@@ -21,8 +21,8 @@ export const ProductItem = ({ item }) => {
 
   return (
     <li>
-      {/* <img src={item.image} alt="image" /> */}
-      <div className="img">image</div>
+      <img src={item.image} alt="image" />
+      {/* <div className="img">image</div> */}
       <span className="productItemTitle">{item.tittle}</span>
       <span className="productItemPrice">{`${item.price} грн`}</span>
       <div className="buyContainer">

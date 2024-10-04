@@ -7,8 +7,6 @@ import { getProductsList } from "../../redux/actions";
 export const ProductsList = () => {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.productList);
-  const typeOfSorting = useSelector((state) => state.typeOfSorting);
-  const [products, setProducts] = useState();
 
   useEffect(() => {
     fetch("http://localhost:3000/productsList.json")
@@ -22,13 +20,9 @@ export const ProductsList = () => {
           ...result.tshirts.productList,
           ...result.trousers.productList,
         ];
-        setProducts([...productsArr]);
+        dispatch(getProductsList(productsArr));
       });
-
-    if (typeOfSorting === "За популярністю") {
-      dispatch(getProductsList(products));
-    }
-  }, [typeOfSorting]);
+  }, []);
 
   return (
     <ul className="productListContainer">

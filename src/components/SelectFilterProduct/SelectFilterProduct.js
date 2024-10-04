@@ -7,6 +7,7 @@ import {
   getTypeOfSorting,
   sortByHighPrice,
   sortByLowPrice,
+  sortByPopular,
 } from "../../redux/actions";
 
 export const SelectFilterProduct = () => {
@@ -59,6 +60,12 @@ export const SelectFilterProduct = () => {
     } else if (target.textContent === "Ціна за зростанням") {
       const highPrice = productList.sort((a, b) => a.price - b.price);
       dispatch(sortByHighPrice(highPrice));
+    } else {
+      const makeRandomArr = (a, b) => {
+        return Math.random() - 0.5;
+      };
+      const popularProducts = productList.sort(makeRandomArr);
+      dispatch(sortByPopular(popularProducts));
     }
   };
 

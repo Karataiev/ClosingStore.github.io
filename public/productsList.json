@@ -3,25 +3,25 @@
     "productTittle": "Куртки",
     "productList": [
       {
-        "image": "./productImages/jackets/jackets-1.jpg",
+        "image": "./productImages/jackets/jackets-1.png",
         "tittle": "Куртка WELCOME OUTLAW WESTERN JACKET BLACK",
         "price": "1100",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-2.jpg",
+        "image": "./productImages/jackets/jackets-2.png.jpg",
         "tittle": "Куртка DICKIES FISHERSVILLE JACKET WHITECAP GRAY",
         "price": "1200",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-3.jpg",
+        "image": "./productImages/jackets/jackets-3.png.jpg",
         "tittle": "Куртка ETNIES AG TRACK JACKET BLACK",
         "price": "1999",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-4.jpg",
+        "image": "./productImages/jackets/jackets-4.png.jpg",
         "tittle": "Куртка DICKIES DUCK CANVAS HOODED UNLINED JACKET SW",
         "price": "999",
         "describes": ""

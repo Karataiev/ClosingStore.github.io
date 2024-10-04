@@ -5,6 +5,7 @@ import {
   SORT_BY_LOW_PRICE,
   SORT_BY_HIGH_PRICE,
   GET_TYPE_OF_SORTING,
+  SORT_BY_POPULAR,
 } from "./actions";
 
 const defaultState = {
@@ -23,6 +24,8 @@ export const reducer = (state = defaultState, action) => {
     case SORT_BY_LOW_PRICE:
       return { ...state, productList: [...action.payload] };
     case SORT_BY_HIGH_PRICE:
+      return { ...state, productList: [...action.payload] };
+    case SORT_BY_POPULAR:
       return { ...state, productList: [...action.payload] };
     case CHANGE_COUNT:
       return { ...state, count: action.payload };
