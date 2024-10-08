@@ -134,61 +134,61 @@
     "productList": [
       {
         "image": "./productImages/jeans/jeans-1.png",
-        "tittle": "Широкие джинсы HOMEBOY x-tra WORK Pants WASHED BLUE",
+        "tittle": "Широкі джинси HOMEBOY x-tra WORK Pants WASHED BLUE",
         "price": "1250",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-2.png",
-        "tittle": "Широкие джинсы HOMEBOY x-tra BAGGY Denim INDIGO",
+        "tittle": "Широкі джинси HOMEBOY x-tra BAGGY Denim INDIGO",
         "price": "1000",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-3.png",
-        "tittle": "Широкие джинсы HOMEBOY x-tra BAGGY Denim WASHED GREY",
+        "tittle": "Широкі джинси HOMEBOY x-tra BAGGY Denim WASHED GREY",
         "price": "1250",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-4.png",
-        "tittle": "Широкие джинсы HOMEBOY x-tra UFO Cargo Denim WASHED BLUE",
+        "tittle": "Широкі джинси HOMEBOY x-tra UFO Cargo Denim WASHED BLUE",
         "price": "1250",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-5.png",
-        "tittle": "Вельветовые джинсы HOMEBOY x-tra BAGGY CORD Pants UBOOT",
+        "tittle": "Вельветові джинси HOMEBOY x-tra BAGGY CORD Pants UBOOT",
         "price": "1300",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-6.png",
-        "tittle": "Широкие джинсы HOMEBOY x-tra MONSTER Denim INDIGO",
+        "tittle": "Широкі джинси HOMEBOY x-tra MONSTER Denim INDIGO",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-7.png",
-        "tittle": "Широкие джинсы HOMEBOY x-tra MONSTER Denim WASHED BLACK",
+        "tittle": "Широкі джинси HOMEBOY x-tra MONSTER Denim WASHED BLACK",
         "price": "1200",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-8.png",
-        "tittle": "Вельветовые джинсы HOMEBOY x-tra MONSTER Cord UBOOT",
+        "tittle": "Вельветові джинси HOMEBOY x-tra MONSTER Cord UBOOT",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-9.png",
-        "tittle": "Джинсы ES BAGGY DENIM LIGHT BLUE",
+        "tittle": "Джинси ES BAGGY DENIM LIGHT BLUE",
         "price": "1100",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-10.png",
-        "tittle": "Джинсы ES BAGGY DENIM BLACK WASH",
+        "tittle": "Джинси ES BAGGY DENIM BLACK WASH",
         "price": "1000",
         "describes": ""
       }
@@ -199,61 +199,61 @@
     "productList": [
       {
         "image": "./productImages/shirts/shirts-1.jpg",
-        "tittle": "Рубашка WELCOME FANG WOVEN PLAID SHIRT BLACK",
+        "tittle": "Сорочка WELCOME FANG WOVEN PLAID SHIRT BLACK",
         "price": "700",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-2.jpg",
-        "tittle": "Рубашка WELCOME BARB PRINTED OXFORD SHIRT MOSS",
+        "tittle": "Сорочка WELCOME BARB PRINTED OXFORD SHIRT MOSS",
         "price": "700",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-3.jpg",
-        "tittle": "Рубашка WELCOME GARAGE OXFORD SHIRT CEDAR",
+        "tittle": "Сорочка WELCOME GARAGE OXFORD SHIRT CEDAR",
         "price": "800",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-4.jpg",
-        "tittle": "Рубашка WELCOME x NIN RUINER TWILL ZIP LS WORK SHIRT",
+        "tittle": "Сорочка WELCOME x NIN RUINER TWILL ZIP LS WORK SHIRT",
         "price": "750",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-5.jpg",
-        "tittle": "Рубашка WELCOME MACE WORK SHIRT SLATE",
+        "tittle": "Сорочка WELCOME MACE WORK SHIRT SLATE",
         "price": "999",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-6.jpg",
-        "tittle": "Рубашка WELCOME CELL WOVEN PLAID ZIP SHIRT LAVENDER",
+        "tittle": "Сорочка WELCOME CELL WOVEN PLAID ZIP SHIRT LAVENDER",
         "price": "900",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-7.jpg",
-        "tittle": "Рубашка DICKIES WARRENTON SHIRT LS WINDOW CHECK",
+        "tittle": "Сорочка DICKIES WARRENTON SHIRT LS WINDOW CHECK",
         "price": "1000",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-8.jpg",
-        "tittle": "Рубашка DICKIES FISHERSVILLE SHIRT MOCHA BISQUE",
+        "tittle": "Сорочка DICKIES FISHERSVILLE SHIRT MOCHA BISQUE",
         "price": "750",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-9.jpg",
-        "tittle": "Рубашка DICKIES WORK SHIRT SS REC DARK FOREST",
+        "tittle": "Сорочка DICKIES WORK SHIRT SS REC DARK FOREST",
         "price": "700",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-10.jpg",
-        "tittle": "Рубашка DICKIES WARRENTON SHIRT LS WINDOW CHECK CL",
+        "tittle": "Сорочка DICKIES WARRENTON SHIRT LS WINDOW CHECK CL",
         "price": "650",
         "describes": ""
       }
@@ -329,7 +329,7 @@
     "productList": [
       {
         "image": "./productImages/trousers/trousers-1.png",
-        "tittle": "Широкие брюки HOMEBOY x-tra CARPENTER Pants BLACK",
+        "tittle": "Широкі брюки HOMEBOY x-tra CARPENTER Pants BLACK",
         "price": "1100",
         "describes": ""
       },
@@ -347,7 +347,7 @@
       },
       {
         "image": "./productImages/trousers/trousers-4.png",
-        "tittle": "Широкие брюки HOMEBOY x-tra CARGO Pants BLACK",
+        "tittle": "Широкі брюки HOMEBOY x-tra CARGO Pants BLACK",
         "price": "990",
         "describes": ""
       },
@@ -383,7 +383,7 @@
       },
       {
         "image": "./productImages/trousers/trousers-10.png",
-        "tittle": "Спортивные брюки ETNIES AG TRACK PANT BLACK",
+        "tittle": "Спортивні брюки ETNIES AG TRACK PANT BLACK",
         "price": "1000",
         "describes": ""
       }

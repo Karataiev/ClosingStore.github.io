@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import { Header } from "../../components/Header/Header";
 import { MainPage } from "../../pages/MainPage/MainPage";
+import { BasketPage } from "../../pages/BasketPage/BasketPage";
 
 export const RoutingComponent = () => {
   return (
@@ -9,8 +10,7 @@ export const RoutingComponent = () => {
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        {/* <Route path="/categoryPage" element={<CategoryPage />} />
-        <Route path="/productsList" element={<ProductsList />} /> */}
+        <Route path="/basketPage" element={<BasketPage />} />
       </Routes>
 
       {/* <Footer /> */}

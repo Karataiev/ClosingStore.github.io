@@ -2,6 +2,7 @@ import React from "react";
 import "./MainPage.scss";
 import { SelectFilterProduct } from "../../components/SelectFilterProduct/SelectFilterProduct";
 import { ProductsList } from "../../components/ProductsList/ProductsList";
+import { CategoryFilter } from "../../components/CategoryFilter/CategoryFilter";
 
 export const MainPage = () => {
   return (
@@ -17,12 +18,11 @@ export const MainPage = () => {
           <div className="sortInput">
             <span>Сортувати по:</span>
             <SelectFilterProduct />
-
-            {/* <input placeholder="по популярністю" /> */}
           </div>
         </div>
         <div className="mainPageContent">
-          <div className="mainPageFilter"></div>
+          <CategoryFilter />
+
           <div className="mainPageProducts">
             <ProductsList />
           </div>

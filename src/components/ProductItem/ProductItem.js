@@ -1,29 +1,54 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useDispatch } from "react-redux";
+
 import "./ProductItem.scss";
-import { useDispatch, useSelector } from "react-redux";
-import { changeCount } from "../../redux/actions";
+import { addProductToBasket } from "../../redux/actions";
 
 export const ProductItem = ({ item }) => {
-  const count = useSelector((state) => state.count);
+  const [count, setCount] = useState(0);
+  const [image, setImage] = useState(null);
+  const [tittle, setTittle] = useState(null);
+  const [price, setPrice] = useState(null);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    setImage(item.image);
+    setTittle(item.tittle);
+    setPrice(item.price);
+  }, []);
 
   const handleDecr = () => {
     if (count === 0) {
       return;
     } else {
-      dispatch(changeCount(count - 1));
+      setCount(count - 1);
     }
   };
 
   const handleIncr = () => {
-    dispatch(changeCount(count + 1));
+    setCount(count + 1);
+  };
+
+  const handleBuyBtn = () => {
+    if (count !== 0) {
+      dispatch(
+        addProductToBasket({
+          count: count,
+          image: image,
+          tittle: tittle,
+          price: price * count,
+        })
+      );
+    }
+
+    setCount(0);
   };
 
   return (
-    <li>
-      <img src={item.image} alt="image" />
-      <span className="productItemTitle">{item.tittle}</span>
-      <span className="productItemPrice">{`${item.price} грн`}</span>
+    <li className="productItem">
+      <img src={image} alt="image" />
+      <span className="productItemTitle">{tittle}</span>
+      <span className="productItemPrice">{`${price} грн`}</span>
       <div className="buyContainer">
         <div className="countContainer">
           <button className="decr" onClick={() => handleDecr()}>
@@ -34,7 +59,9 @@ export const ProductItem = ({ item }) => {
             +
           </button>
         </div>
-        <button className="buyBtn">Купити</button>
+        <button className="buyBtn" onClick={() => handleBuyBtn()}>
+          Купити
+        </button>
       </div>
     </li>
   );

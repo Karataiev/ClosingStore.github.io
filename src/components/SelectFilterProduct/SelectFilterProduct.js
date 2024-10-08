@@ -4,7 +4,6 @@ import selectIconUp from "../../assets/icons/selectIconUp.svg";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
-  getTypeOfSorting,
   sortByHighPrice,
   sortByLowPrice,
   sortByPopular,
@@ -52,7 +51,6 @@ export const SelectFilterProduct = () => {
 
   const chooseTypeOfSorting = (e) => {
     const target = e.target;
-    dispatch(getTypeOfSorting(target.textContent));
 
     if (target.textContent === "Ціна за зменшенням") {
       const lowPrice = productList.sort((a, b) => b.price - a.price);

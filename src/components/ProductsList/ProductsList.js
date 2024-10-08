@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./ProductsList.scss";
 import { ProductItem } from "../ProductItem/ProductItem";
 import { useDispatch, useSelector } from "react-redux";
-import { getProductsList } from "../../redux/actions";
+import {
+  createUnchangedProductList,
+  getProductsList,
+} from "../../redux/actions";
 
 export const ProductsList = () => {
   const dispatch = useDispatch();
-  const productList = useSelector((state) => state.productList);
+  const productListArr = useSelector((state) => state.productList);
 
   useEffect(() => {
     fetch("http://localhost:3000/productsList.json")
@@ -21,13 +24,15 @@ export const ProductsList = () => {
           ...result.trousers.productList,
         ];
         dispatch(getProductsList(productsArr));
+        dispatch(createUnchangedProductList(productsArr));
       });
   }, []);
 
   return (
     <ul className="productListContainer">
-      {productList &&
-        productList.map((prod, idx) => <ProductItem item={prod} key={idx} />)}
+      {productListArr.map((prod, idx) => (
+        <ProductItem item={prod} key={idx} />
+      ))}
     </ul>
   );
 };

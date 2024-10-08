@@ -14,6 +14,7 @@
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     transition: 0.3s linear;
+
     &:hover {
       transition: 0.3s linear;
       background-color: rgb(95, 95, 189);
@@ -39,6 +40,34 @@
     &:hover {
       background-color: rgb(95, 95, 189);
       transition: 0.3s linear;
+    }
+  }
+
+  .basket {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+
+    .numberOfProductBlock {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 15px;
+      right: 25px;
+      height: 20px;
+      width: 20px;
+      background-color: rgb(95, 95, 189);
+      border-radius: 50%;
+    }
+
+    .numberOfProductTitle {
+      color: white;
+      font-size: 10px;
+      text-align: center;
     }
   }
 

@@ -1,0 +1,26 @@
+.basketPageHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .backBtn {
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+
+    &:hover {
+      background-color: rgb(165, 165, 237);
+    }
+  }
+
+  .basketPageTittle {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 2;
+    padding-right: 50px;
+    margin: 0 auto;
+  }
+}

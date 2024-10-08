@@ -1,0 +1,40 @@
+.basketItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  img {
+    height: 175px;
+    width: 150px;
+  }
+
+  .productInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .title {
+      font-size: 25px;
+      color: black;
+    }
+  }
+
+  button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: grey;
+    font-size: 16px;
+
+    &:hover {
+      color: rgb(165, 165, 237);
+    }
+  }
+}
