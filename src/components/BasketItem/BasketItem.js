@@ -9,7 +9,7 @@ export const BasketItem = ({ el }) => {
 
   const handleRemoveBtn = (e) => {
     const target = e.target.closest("li").querySelector(".title").textContent;
-    const newArr = basket.filter((el) => el.tittle !== target);
+    const newArr = basket.filter((el) => el.title !== target);
     dispatch(removeProductFromBasket(newArr));
   };
 
@@ -17,7 +17,7 @@ export const BasketItem = ({ el }) => {
     <li className="basketItem">
       <img src={el.image} alt="product_image" />
       <div className="productInfo">
-        <span className="title">{el.tittle}</span>
+        <span className="title">{el.title}</span>
         <span className="count">Кількість: {el.count}</span>
         <span className="price">Ціна: {el.price} грн</span>
       </div>

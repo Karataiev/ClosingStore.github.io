@@ -9,7 +9,7 @@ import {
 
 export const ProductsList = () => {
   const dispatch = useDispatch();
-  const productListArr = useSelector((state) => state.productList);
+  const productList = useSelector((state) => state.productList);
 
   useEffect(() => {
     fetch("http://localhost:3000/productsList.json")
@@ -30,9 +30,8 @@ export const ProductsList = () => {
 
   return (
     <ul className="productListContainer">
-      {productListArr.map((prod, idx) => (
-        <ProductItem item={prod} key={idx} />
-      ))}
+      {productList &&
+        productList.map((prod, idx) => <ProductItem item={prod} key={idx} />)}
     </ul>
   );
 };

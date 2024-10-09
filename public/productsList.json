@@ -1,389 +1,389 @@
 {
   "jackets": {
-    "productTittle": "Куртки",
+    "productTitle": "Куртки",
     "productList": [
       {
         "image": "./productImages/jackets/jackets-1.png",
-        "tittle": "Куртка WELCOME OUTLAW WESTERN JACKET BLACK",
+        "title": "Куртка WELCOME OUTLAW WESTERN JACKET BLACK",
         "price": "1100",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-2.png.jpg",
-        "tittle": "Куртка DICKIES FISHERSVILLE JACKET WHITECAP GRAY",
+        "image": "./productImages/jackets/jackets-2.png",
+        "title": "Куртка DICKIES FISHERSVILLE JACKET WHITECAP GRAY",
         "price": "1200",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-3.png.jpg",
-        "tittle": "Куртка ETNIES AG TRACK JACKET BLACK",
+        "image": "./productImages/jackets/jackets-3.png",
+        "title": "Куртка ETNIES AG TRACK JACKET BLACK",
         "price": "1999",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-4.png.jpg",
-        "tittle": "Куртка DICKIES DUCK CANVAS HOODED UNLINED JACKET SW",
+        "image": "./productImages/jackets/jackets-4.png",
+        "title": "Куртка DICKIES DUCK CANVAS HOODED UNLINED JACKET SW",
         "price": "999",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-5.jpg",
-        "tittle": "Куртка DICKIES CHASE CITY JACKET BLACK",
+        "image": "./productImages/jackets/jackets-5.png",
+        "title": "Куртка DICKIES CHASE CITY JACKET BLACK",
         "price": "1560",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-6.jpg",
-        "tittle": "Куртка DICKIES NEWINGTON JACKET DBLE DYE/ACD BL",
+        "image": "./productImages/jackets/jackets-6.png",
+        "title": "Куртка DICKIES NEWINGTON JACKET DBLE DYE/ACD BL",
         "price": "1650",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-7.jpg",
-        "tittle": "Куртка DICKIES DUCK CANVAS HOODED UNLINED JACKET SW",
+        "image": "./productImages/jackets/jackets-7.png",
+        "title": "Куртка DICKIES DUCK CANVAS HOODED UNLINED JACKET SW",
         "price": "1000",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-8.jpg",
-        "tittle": "Куртка DICKIES NEWINGTON JACKET DBLE DYE/ACD SS",
+        "image": "./productImages/jackets/jackets-8.png",
+        "title": "Куртка DICKIES NEWINGTON JACKET DBLE DYE/ACD SS",
         "price": "1600",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-9.jpg",
-        "tittle": "Куртка DICKIES NEWINGTON JACKET DBLE DYE/ACD FR",
+        "image": "./productImages/jackets/jackets-9.png",
+        "title": "Куртка DICKIES NEWINGTON JACKET DBLE DYE/ACD FR",
         "price": "1700",
         "describes": ""
       },
       {
-        "image": "./productImages/jackets/jackets-10.jpg",
-        "tittle": "Куртка DICKIES UNLINED EISENHOWER JACKET REC BLACK",
+        "image": "./productImages/jackets/jackets-10.png",
+        "title": "Куртка DICKIES UNLINED EISENHOWER JACKET REC BLACK",
         "price": "1300",
         "describes": ""
       }
     ]
   },
   "tshirts": {
-    "productTittle": "футболки",
+    "productTitle": "футболки",
     "productList": [
       {
         "image": "./productImages/tshorts/t-shorts-1.png",
-        "tittle": "Футболка HOMEBOY Pencil Tee LILAC",
+        "title": "Футболка HOMEBOY Pencil Tee LILAC",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-2.png",
-        "tittle": "Футболка HOMEBOY Pencil Tee BLACK",
+        "title": "Футболка HOMEBOY Pencil Tee BLACK",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-3.png",
-        "tittle": "Футболка HOMEBOY BLOCKZ Tee BLACK",
+        "title": "Футболка HOMEBOY BLOCKZ Tee BLACK",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-4.png",
-        "tittle": "Футболка HOMEBOY FROOTZ Tee BLACK",
+        "title": "Футболка HOMEBOY FROOTZ Tee BLACK",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-5.png",
-        "tittle": "Футболка HOMEBOY GOODBOY Tee EGGSHELL",
+        "title": "Футболка HOMEBOY GOODBOY Tee EGGSHELL",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-6.png",
-        "tittle": "Футболка HOMEBOY FULLY CHARGED Tee LILAC",
+        "title": "Футболка HOMEBOY FULLY CHARGED Tee LILAC",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-7.png",
-        "tittle": "Футболка HOMEBOY FULLY CHARGED Tee BLACK",
+        "title": "Футболка HOMEBOY FULLY CHARGED Tee BLACK",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-8.png",
-        "tittle": "Футболка HOMEBOY Old School Tee LILAC",
+        "title": "Футболка HOMEBOY Old School Tee LILAC",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-9.png",
-        "tittle": "Футболка HOMEBOY Old School Tee WHITE",
+        "title": "Футболка HOMEBOY Old School Tee WHITE",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/tshorts/t-shorts-10.png",
-        "tittle": "Футболка HOMEBOY Old School Tee BLACK",
+        "title": "Футболка HOMEBOY Old School Tee BLACK",
         "price": "500",
         "describes": ""
       }
     ]
   },
   "jeans": {
-    "productTittle": "джинси",
+    "productTitle": "джинси",
     "productList": [
       {
         "image": "./productImages/jeans/jeans-1.png",
-        "tittle": "Широкі джинси HOMEBOY x-tra WORK Pants WASHED BLUE",
+        "title": "Широкі джинси HOMEBOY x-tra WORK Pants WASHED BLUE",
         "price": "1250",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-2.png",
-        "tittle": "Широкі джинси HOMEBOY x-tra BAGGY Denim INDIGO",
+        "title": "Широкі джинси HOMEBOY x-tra BAGGY Denim INDIGO",
         "price": "1000",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-3.png",
-        "tittle": "Широкі джинси HOMEBOY x-tra BAGGY Denim WASHED GREY",
+        "title": "Широкі джинси HOMEBOY x-tra BAGGY Denim WASHED GREY",
         "price": "1250",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-4.png",
-        "tittle": "Широкі джинси HOMEBOY x-tra UFO Cargo Denim WASHED BLUE",
+        "title": "Широкі джинси HOMEBOY x-tra UFO Cargo Denim WASHED BLUE",
         "price": "1250",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-5.png",
-        "tittle": "Вельветові джинси HOMEBOY x-tra BAGGY CORD Pants UBOOT",
+        "title": "Вельветові джинси HOMEBOY x-tra BAGGY CORD Pants UBOOT",
         "price": "1300",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-6.png",
-        "tittle": "Широкі джинси HOMEBOY x-tra MONSTER Denim INDIGO",
+        "title": "Широкі джинси HOMEBOY x-tra MONSTER Denim INDIGO",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-7.png",
-        "tittle": "Широкі джинси HOMEBOY x-tra MONSTER Denim WASHED BLACK",
+        "title": "Широкі джинси HOMEBOY x-tra MONSTER Denim WASHED BLACK",
         "price": "1200",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-8.png",
-        "tittle": "Вельветові джинси HOMEBOY x-tra MONSTER Cord UBOOT",
+        "title": "Вельветові джинси HOMEBOY x-tra MONSTER Cord UBOOT",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-9.png",
-        "tittle": "Джинси ES BAGGY DENIM LIGHT BLUE",
+        "title": "Джинси ES BAGGY DENIM LIGHT BLUE",
         "price": "1100",
         "describes": ""
       },
       {
         "image": "./productImages/jeans/jeans-10.png",
-        "tittle": "Джинси ES BAGGY DENIM BLACK WASH",
+        "title": "Джинси ES BAGGY DENIM BLACK WASH",
         "price": "1000",
         "describes": ""
       }
     ]
   },
   "shirts": {
-    "productTittle": "сорочки",
+    "productTitle": "сорочки",
     "productList": [
       {
         "image": "./productImages/shirts/shirts-1.jpg",
-        "tittle": "Сорочка WELCOME FANG WOVEN PLAID SHIRT BLACK",
+        "title": "Сорочка WELCOME FANG WOVEN PLAID SHIRT BLACK",
         "price": "700",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-2.jpg",
-        "tittle": "Сорочка WELCOME BARB PRINTED OXFORD SHIRT MOSS",
+        "title": "Сорочка WELCOME BARB PRINTED OXFORD SHIRT MOSS",
         "price": "700",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-3.jpg",
-        "tittle": "Сорочка WELCOME GARAGE OXFORD SHIRT CEDAR",
+        "title": "Сорочка WELCOME GARAGE OXFORD SHIRT CEDAR",
         "price": "800",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-4.jpg",
-        "tittle": "Сорочка WELCOME x NIN RUINER TWILL ZIP LS WORK SHIRT",
+        "title": "Сорочка WELCOME x NIN RUINER TWILL ZIP LS WORK SHIRT",
         "price": "750",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-5.jpg",
-        "tittle": "Сорочка WELCOME MACE WORK SHIRT SLATE",
+        "title": "Сорочка WELCOME MACE WORK SHIRT SLATE",
         "price": "999",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-6.jpg",
-        "tittle": "Сорочка WELCOME CELL WOVEN PLAID ZIP SHIRT LAVENDER",
+        "title": "Сорочка WELCOME CELL WOVEN PLAID ZIP SHIRT LAVENDER",
         "price": "900",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-7.jpg",
-        "tittle": "Сорочка DICKIES WARRENTON SHIRT LS WINDOW CHECK",
+        "title": "Сорочка DICKIES WARRENTON SHIRT LS WINDOW CHECK",
         "price": "1000",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-8.jpg",
-        "tittle": "Сорочка DICKIES FISHERSVILLE SHIRT MOCHA BISQUE",
+        "title": "Сорочка DICKIES FISHERSVILLE SHIRT MOCHA BISQUE",
         "price": "750",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-9.jpg",
-        "tittle": "Сорочка DICKIES WORK SHIRT SS REC DARK FOREST",
+        "title": "Сорочка DICKIES WORK SHIRT SS REC DARK FOREST",
         "price": "700",
         "describes": ""
       },
       {
         "image": "./productImages/shirts/shirts-10.jpg",
-        "tittle": "Сорочка DICKIES WARRENTON SHIRT LS WINDOW CHECK CL",
+        "title": "Сорочка DICKIES WARRENTON SHIRT LS WINDOW CHECK CL",
         "price": "650",
         "describes": ""
       }
     ]
   },
   "hats": {
-    "productTittle": "шапки",
+    "productTitle": "шапки",
     "productList": [
       {
         "image": "./productImages/hats/hats-1.png",
-        "tittle": "Шапка PIG HEAD DOCK BEANIE BLUE/CARD",
+        "title": "Шапка PIG HEAD DOCK BEANIE BLUE/CARD",
         "price": "300",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-2.png",
-        "tittle": "Шапка PIG HEAD DOCK BEANIE ARMY/DION",
+        "title": "Шапка PIG HEAD DOCK BEANIE ARMY/DION",
         "price": "200",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-3.png",
-        "tittle": "Шапка PIG HEAD DOCK BEANIE BLACK",
+        "title": "Шапка PIG HEAD DOCK BEANIE BLACK",
         "price": "350",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-4.png",
-        "tittle": "FOUNDATION Шапка FOUNDATION FS BEANIE BLACK",
+        "title": "FOUNDATION Шапка FOUNDATION FS BEANIE BLACK",
         "price": "500",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-5.png",
-        "tittle": "Шапка FOUNDATION FS PUSH EMBROIDERED BEANIE BLACK",
+        "title": "Шапка FOUNDATION FS PUSH EMBROIDERED BEANIE BLACK",
         "price": "400",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-6.png",
-        "tittle": "Шапка TOY MACHINE Sect Eye Dock Beanie Purple",
+        "title": "Шапка TOY MACHINE Sect Eye Dock Beanie Purple",
         "price": "400",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-7.png",
-        "tittle": "Шапка TOY MACHINE TM MULTI STRIPE BEANIE FOREST",
+        "title": "Шапка TOY MACHINE TM MULTI STRIPE BEANIE FOREST",
         "price": "350",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-8.png",
-        "tittle": "Шапка TOY MACHINE Sect Eye Dock Beanie Orange",
+        "title": "Шапка TOY MACHINE Sect Eye Dock Beanie Orange",
         "price": "350",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-9.png",
-        "tittle": "Шапка TOY MACHINE TM MULTI STRIPE BEANIE ORANGE",
+        "title": "Шапка TOY MACHINE TM MULTI STRIPE BEANIE ORANGE",
         "price": "350",
         "describes": ""
       },
       {
         "image": "./productImages/hats/hats-10.png",
-        "tittle": "Lennetine Шапка TOY MACHINE TM DEVIL CAT DOCK BEANIE BLACK",
+        "title": "Lennetine Шапка TOY MACHINE TM DEVIL CAT DOCK BEANIE BLACK",
         "price": "350",
         "describes": ""
       }
     ]
   },
   "trousers": {
-    "productTittle": "брюки",
+    "productTitle": "брюки",
     "productList": [
       {
         "image": "./productImages/trousers/trousers-1.png",
-        "tittle": "Широкі брюки HOMEBOY x-tra CARPENTER Pants BLACK",
+        "title": "Широкі брюки HOMEBOY x-tra CARPENTER Pants BLACK",
         "price": "1100",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-2.png",
-        "tittle": "Брюки HOMEBOY x-tra GHOST Fat Cord",
+        "title": "Брюки HOMEBOY x-tra GHOST Fat Cord",
         "price": "1100",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-3.png",
-        "tittle": "Брюки DICKIES FISHERSVILLE PANT W WHITECAP GRAY",
+        "title": "Брюки DICKIES FISHERSVILLE PANT W WHITECAP GRAY",
         "price": "1100",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-4.png",
-        "tittle": "Широкі брюки HOMEBOY x-tra CARGO Pants BLACK",
+        "title": "Широкі брюки HOMEBOY x-tra CARGO Pants BLACK",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-5.png",
-        "tittle": "Брюки WELCOME BRACE DOUBLE-KNEE PANT DARK SAPPHIRE",
+        "title": "Брюки WELCOME BRACE DOUBLE-KNEE PANT DARK SAPPHIRE",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-6.png",
-        "tittle": "Брюки DICKIES FISHERSVILLE PANT W DARK NAVY",
+        "title": "Брюки DICKIES FISHERSVILLE PANT W DARK NAVY",
         "price": "990",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-7.png",
-        "tittle": "Брюки DICKIES DOUBLE KNEE WORK PANT KHAKI",
+        "title": "Брюки DICKIES DOUBLE KNEE WORK PANT KHAKI",
         "price": "1400",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-8.png",
-        "tittle": "Брюки DICKIES 874 WORKPANT REC W WHITECAP GRAY",
+        "title": "Брюки DICKIES 874 WORKPANT REC W WHITECAP GRAY",
         "price": "1350",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-9.png",
-        "tittle": "Брюки DICKIES DOUBLE KNEE WORK PANT WHITECAP GRAY",
+        "title": "Брюки DICKIES DOUBLE KNEE WORK PANT WHITECAP GRAY",
         "price": "1200",
         "describes": ""
       },
       {
         "image": "./productImages/trousers/trousers-10.png",
-        "tittle": "Спортивні брюки ETNIES AG TRACK PANT BLACK",
+        "title": "Спортивні брюки ETNIES AG TRACK PANT BLACK",
         "price": "1000",
         "describes": ""
       }

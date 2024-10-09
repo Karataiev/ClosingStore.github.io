@@ -7,11 +7,11 @@ import { CategoryFilter } from "../../components/CategoryFilter/CategoryFilter";
 export const MainPage = () => {
   return (
     <div className="mainPageContainer">
-      <span className="mainPageTittle">Одяг</span>
+      <span className="mainPageTitle">Одяг</span>
 
       <div className="mainPageContentContainer">
         <div className="mainPageHeader">
-          <div className="tittleBlock">
+          <div className="titleBlock">
             <span>Фільтри</span>
           </div>
 

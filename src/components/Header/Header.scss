@@ -1,5 +1,4 @@
 .headerContainer {
-  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,6 +6,11 @@
   background-color: black;
   width: 100%;
   height: 75px;
+  z-index: 100;
+
+  position: fixed;
+  left: 0;
+  top: 0;
 
   .burgerMenuBlock,
   .contactUs {

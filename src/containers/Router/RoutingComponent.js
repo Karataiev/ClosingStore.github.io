@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Header } from "../../components/Header/Header";
 import { MainPage } from "../../pages/MainPage/MainPage";
 import { BasketPage } from "../../pages/BasketPage/BasketPage";
+import { Footer } from "../../components/Footer/Footer";
 
 export const RoutingComponent = () => {
   return (
@@ -13,7 +14,7 @@ export const RoutingComponent = () => {
         <Route path="/basketPage" element={<BasketPage />} />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 };

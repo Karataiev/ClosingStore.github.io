@@ -7,6 +7,8 @@ export const FILTER_BY_CATEGORY = "FILTER_BY_CATEGORY";
 export const CREATE_UNCHANGED_PRODUCT_LIST = "CREATE_UNCHANGED_PRODUCT_LIST";
 export const ADD_PRODUCT_TO_BASKET = "ADD_PRODUCT_TO_BASKET";
 export const REMOVE_PRODUCT_FROM_BASKET = "REMOVE_PRODUCT_FROM_BASKET";
+export const HANDLE_MODAL = "HANDLE_MODAL";
+export const GET_MODAL_NAME = "GET_MODAL_NAME";
 
 export const handleBurgerButton = (payload) => {
   return { type: HANDLE_BURGER_BUTTON, payload: payload };
@@ -42,4 +44,12 @@ export const addProductToBasket = (payload) => {
 
 export const removeProductFromBasket = (payload) => {
   return { type: REMOVE_PRODUCT_FROM_BASKET, payload: payload };
+};
+
+export const handleModal = (payload) => {
+  return { type: HANDLE_MODAL, payload: payload };
+};
+
+export const getModalName = (payload) => {
+  return { type: GET_MODAL_NAME, payload: payload };
 };

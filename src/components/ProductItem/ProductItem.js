@@ -7,15 +7,17 @@ import { addProductToBasket } from "../../redux/actions";
 export const ProductItem = ({ item }) => {
   const [count, setCount] = useState(0);
   const [image, setImage] = useState(null);
-  const [tittle, setTittle] = useState(null);
+  const [title, setTitle] = useState(null);
   const [price, setPrice] = useState(null);
   const dispatch = useDispatch();
 
   useEffect(() => {
     setImage(item.image);
-    setTittle(item.tittle);
+    setTitle(item.title);
     setPrice(item.price);
-  }, []);
+
+    console.log(item.image);
+  }, [item]);
 
   const handleDecr = () => {
     if (count === 0) {
@@ -35,7 +37,7 @@ export const ProductItem = ({ item }) => {
         addProductToBasket({
           count: count,
           image: image,
-          tittle: tittle,
+          title: title,
           price: price * count,
         })
       );
@@ -47,7 +49,7 @@ export const ProductItem = ({ item }) => {
   return (
     <li className="productItem">
       <img src={image} alt="image" />
-      <span className="productItemTitle">{tittle}</span>
+      <span className="productItemTitle">{title}</span>
       <span className="productItemPrice">{`${price} грн`}</span>
       <div className="buyContainer">
         <div className="countContainer">

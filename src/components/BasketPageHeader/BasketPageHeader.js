@@ -9,7 +9,7 @@ export const BasketPageHeader = () => {
       <Link to={"/"} className="backBtn">
         <img src={backBtn} alt="back_btn" />
       </Link>
-      <span className="basketPageTittle">Корзина</span>
+      <span className="basketPageTitle">Корзина</span>
     </div>
   );
 };

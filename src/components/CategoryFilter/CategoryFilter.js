@@ -31,7 +31,7 @@ export const CategoryFilter = () => {
     const correctName = productNameArr.join("");
 
     const filteredProducts = unchangedProductList.filter((el) =>
-      el.tittle.toLowerCase().includes(correctName.toLowerCase())
+      el.title.toLowerCase().includes(correctName.toLowerCase())
     );
     dispatch(filterByCategory(filteredProducts));
   };

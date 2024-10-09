@@ -8,6 +8,8 @@ import {
   FILTER_BY_CATEGORY,
   ADD_PRODUCT_TO_BASKET,
   REMOVE_PRODUCT_FROM_BASKET,
+  HANDLE_MODAL,
+  GET_MODAL_NAME,
 } from "./actions";
 
 const defaultState = {
@@ -15,6 +17,8 @@ const defaultState = {
   unchangedProductList: [],
   productList: [],
   basket: [],
+  isModalOpen: false,
+  modalName: "",
 };
 
 export const reducer = (state = defaultState, action) => {
@@ -37,6 +41,10 @@ export const reducer = (state = defaultState, action) => {
       return { ...state, basket: [...action.payload] };
     case CREATE_UNCHANGED_PRODUCT_LIST:
       return { ...state, unchangedProductList: [...action.payload] };
+    case HANDLE_MODAL:
+      return { ...state, isModalOpen: action.payload };
+    case GET_MODAL_NAME:
+      return { ...state, modalName: action.payload };
     default:
       return state;
   }
