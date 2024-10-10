@@ -10,8 +10,12 @@ export const BasketPage = () => {
   const basket = useSelector((state) => state.basket);
 
   useEffect(() => {
+    let priceArr = [];
     if (basket.length > 1) {
-      setFullPrice(basket.reduce((prev, cur) => prev.price + cur.price));
+      basket.forEach((el) => {
+        priceArr.push(el.price);
+      });
+      setFullPrice(priceArr.reduce((prev, cur) => prev + cur));
     } else if (basket.length === 1) {
       setFullPrice(basket[0].price);
     }

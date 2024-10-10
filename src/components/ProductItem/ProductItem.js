@@ -15,8 +15,6 @@ export const ProductItem = ({ item }) => {
     setImage(item.image);
     setTitle(item.title);
     setPrice(item.price);
-
-    console.log(item.image);
   }, [item]);
 
   const handleDecr = () => {
@@ -38,7 +36,7 @@ export const ProductItem = ({ item }) => {
           count: count,
           image: image,
           title: title,
-          price: price * count,
+          price: parseInt(price) * parseInt(count),
         })
       );
     }
