@@ -5,12 +5,7 @@ export const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerLogo">
-        <span>CL_STORE</span>
-      </div>
-      <div className="footerInfo">
-        <span>Допомога</span>
-        <span>Звязатися з нами</span>
-        <span>Соціальні мережі</span>
+        <span>StyleShop</span>
       </div>
     </div>
   );

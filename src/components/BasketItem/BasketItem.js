@@ -19,6 +19,7 @@ export const BasketItem = ({ el }) => {
       <div className="productInfo">
         <span className="title">{el.title}</span>
         <span className="count">Кількість: {el.count}</span>
+        <span className="size">Розмір: {el.size}</span>
         <span className="price">Ціна: {el.price} грн</span>
       </div>
       <button onClick={(e) => handleRemoveBtn(e)}>Видалити</button>

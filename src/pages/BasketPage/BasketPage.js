@@ -43,7 +43,7 @@ export const BasketPage = () => {
       ) : (
         <div className="emptyBasketBlock">
           <span className="emptyBasket">
-            Корзина порожня. Будь ласка, оберіть товар.
+            Кошик порожній. Будь ласка, оберіть товар.
           </span>
         </div>
       )}

@@ -1,15 +1,26 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-
+import { useDispatch, useSelector } from "react-redux";
+import selectIconDown from "../../assets/icons/selectIconDown.svg";
+import selectIconUp from "../../assets/icons/selectIconUp.svg";
 import "./ProductItem.scss";
-import { addProductToBasket } from "../../redux/actions";
+import {
+  addProductToBasket,
+  getFullInfoItem,
+  openFullInfoModal,
+} from "../../redux/actions";
 
 export const ProductItem = ({ item }) => {
   const [count, setCount] = useState(0);
   const [image, setImage] = useState(null);
   const [title, setTitle] = useState(null);
   const [price, setPrice] = useState(null);
+  const [sizeArrow, setSizeArrow] = useState(false);
+  const [getSize, setGetSize] = useState("XS");
+  const isOpenFullInfoModal = useSelector((state) => state.isOpenFullInfoModal);
+
   const dispatch = useDispatch();
+
+  const sizeArr = ["XS", "S", "M", "L", "XL", "XXL"];
 
   useEffect(() => {
     setImage(item.image);
@@ -36,6 +47,7 @@ export const ProductItem = ({ item }) => {
           count: count,
           image: image,
           title: title,
+          size: getSize,
           price: parseInt(price) * parseInt(count),
         })
       );
@@ -44,12 +56,29 @@ export const ProductItem = ({ item }) => {
     setCount(0);
   };
 
+  const handleSize = () => {
+    setSizeArrow(!sizeArrow);
+  };
+
+  const handleOpenFullInfo = () => {
+    dispatch(
+      getFullInfoItem({
+        count: count,
+        image: image,
+        title: title,
+        size: getSize,
+        price: price,
+      })
+    );
+    dispatch(openFullInfoModal(!isOpenFullInfoModal));
+  };
+
   return (
-    <li className="productItem">
-      <img src={image} alt="image" />
+    <li className="productItem" onClick={() => handleOpenFullInfo()}>
+      <img src={image} alt="prod" className="image" />
       <span className="productItemTitle">{title}</span>
       <span className="productItemPrice">{`${price} грн`}</span>
-      <div className="buyContainer">
+      <div className="buyContainer" onClick={(e) => e.stopPropagation(e)}>
         <div className="countContainer">
           <button className="decr" onClick={() => handleDecr()}>
             -
@@ -59,6 +88,29 @@ export const ProductItem = ({ item }) => {
             +
           </button>
         </div>
+
+        <div className="sizeList" onClick={() => handleSize()}>
+          <div className="fixedSize">
+            {sizeArrow ? (
+              sizeArr.map((el) => (
+                <span
+                  key={el}
+                  className="oneOfSize"
+                  onClick={(e) => setGetSize(e.target.textContent)}
+                >
+                  {el}
+                </span>
+              ))
+            ) : (
+              <span>{getSize}</span>
+            )}
+          </div>
+          <img
+            src={sizeArrow ? selectIconUp : selectIconDown}
+            alt="selectArrow"
+          />
+        </div>
+
         <button className="buyBtn" onClick={() => handleBuyBtn()}>
           Купити
         </button>

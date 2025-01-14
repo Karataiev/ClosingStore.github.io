@@ -1,0 +1,172 @@
+.fullProductInfoModalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: fixed;
+  left: 0;
+  z-index: 101;
+  padding: 10px 120px;
+  box-sizing: border-box;
+
+  .fullProductInfoModal {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    background-color: white;
+    width: 40%;
+    height: 500px;
+
+    .modalHeader {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+
+      .closeModalButton {
+        border: none;
+        background-color: rgb(165, 165, 237);
+        padding: 10px 18px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        color: white;
+
+        &:hover {
+          background-color: white;
+          color: rgb(165, 165, 237);
+          border: 2px solid rgb(165, 165, 237);
+          padding: 8px 16px;
+        }
+      }
+    }
+
+    .infoBlock {
+      display: flex;
+      flex-direction: row;
+      margin-top: 16px;
+
+      .itemImg {
+        max-width: 174px;
+        max-height: 224px;
+      }
+
+      .itemInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-left: 36px;
+      }
+
+      .title {
+        font-size: 17px;
+        font-weight: 600;
+      }
+
+      .count {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        .countContainer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+
+          button {
+            text-align: center;
+            border: none;
+            color: rgb(165, 165, 237);
+            font-size: 40px;
+            font-weight: 500;
+            background-color: transparent;
+          }
+
+          .decr {
+            padding-bottom: 5px;
+          }
+
+          span {
+            text-align: center;
+            align-items: center;
+            min-width: 42px;
+            padding: 8px 12px;
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      .size {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        .sizeList {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          position: absolute;
+          right: 18px;
+          width: 68px;
+          border: 1px solid #e6e6e6;
+          background-color: white;
+          border-radius: 5px;
+          padding: 8px 12px;
+          z-index: 2;
+
+          .oneOfSize:hover {
+            text-decoration: underline;
+          }
+
+          .fixedSize {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+
+          span {
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+        }
+      }
+      .buyBtn {
+        padding: 8px 16px;
+        margin-top: 12px;
+        border-radius: 15px;
+        background-color: transparent;
+        border: 1px solid #e6e6e6;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        background-color: rgb(165, 165, 237);
+        transition: 0.5s;
+
+        font-size: 17px;
+        font-weight: 500;
+
+        &:hover {
+          background-color: rgb(120, 120, 202);
+          transition: 0.5s;
+        }
+      }
+    }
+
+    .describeProductInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 24px;
+    }
+  }
+}

@@ -9,6 +9,16 @@ export const ADD_PRODUCT_TO_BASKET = "ADD_PRODUCT_TO_BASKET";
 export const REMOVE_PRODUCT_FROM_BASKET = "REMOVE_PRODUCT_FROM_BASKET";
 export const HANDLE_MODAL = "HANDLE_MODAL";
 export const GET_MODAL_NAME = "GET_MODAL_NAME";
+export const OPEN_FULL_INFO_MODAL = "OPEN_FULL_INFO_MODAL";
+export const GET_FULL_INFO_ITEM = "GET_FULL_INFO_ITEM";
+
+export const getFullInfoItem = (payload) => {
+  return { type: GET_FULL_INFO_ITEM, payload: payload };
+};
+
+export const openFullInfoModal = (payload) => {
+  return { type: OPEN_FULL_INFO_MODAL, payload: payload };
+};
 
 export const handleBurgerButton = (payload) => {
   return { type: HANDLE_BURGER_BUTTON, payload: payload };

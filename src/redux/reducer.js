@@ -10,6 +10,8 @@ import {
   REMOVE_PRODUCT_FROM_BASKET,
   HANDLE_MODAL,
   GET_MODAL_NAME,
+  OPEN_FULL_INFO_MODAL,
+  GET_FULL_INFO_ITEM,
 } from "./actions";
 
 const defaultState = {
@@ -19,6 +21,8 @@ const defaultState = {
   basket: [],
   isModalOpen: false,
   modalName: "",
+  isOpenFullInfoModal: false,
+  fullInfoItem: {},
 };
 
 export const reducer = (state = defaultState, action) => {
@@ -45,6 +49,10 @@ export const reducer = (state = defaultState, action) => {
       return { ...state, isModalOpen: action.payload };
     case GET_MODAL_NAME:
       return { ...state, modalName: action.payload };
+    case OPEN_FULL_INFO_MODAL:
+      return { ...state, isOpenFullInfoModal: action.payload };
+    case GET_FULL_INFO_ITEM:
+      return { ...state, fullInfoItem: action.payload };
     default:
       return state;
   }

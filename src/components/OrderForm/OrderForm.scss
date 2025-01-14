@@ -6,8 +6,44 @@
   border-right: 1px solid grey;
   border-left: 1px solid grey;
   padding: 20px 70px;
-  width: 50%;
+  width: 70%;
   gap: 10px;
+
+  .formsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+    }
+
+    .deliverInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: end;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+        select {
+          width: 100%;
+          border-radius: 10px;
+          border: 1px solid grey;
+          outline: none;
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
 
   input {
     padding: 10px 20px;

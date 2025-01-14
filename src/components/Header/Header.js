@@ -8,11 +8,15 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RegLogModal } from "../RegLogModal/RegLogModal";
 import { getModalName, handleModal } from "../../redux/actions";
+import { ConnectUsModal } from "../ConnectUsModal/ConnectUsModal";
+import { FullProductInfoModal } from "../FullProductInfoModal/FullProductInfoModal";
 
 export const Header = () => {
   const [numberOfProduct, setNumberOfProduct] = useState(0);
   const basketState = useSelector((state) => state.basket);
   const isModalOpen = useSelector((state) => state.isModalOpen);
+  const isOpenFullInfoModal = useSelector((state) => state.isOpenFullInfoModal);
+  const [isContactUs, setIsContactUs] = useState(false);
 
   const dispatch = useDispatch();
 
@@ -32,6 +36,7 @@ export const Header = () => {
 
   return (
     <>
+      {isOpenFullInfoModal && <FullProductInfoModal />}
       {isModalOpen && <RegLogModal />}
       <header className="headerContainer">
         <div className="burgerMenuBlock">
@@ -41,11 +46,12 @@ export const Header = () => {
           <img src={location} alt="location" />
           <span>Україна</span>
         </div>
-        <div className="namingLogo">CL_STORE</div>
-        <div className="contactUs">
+        <div className="namingLogo">StyleShop</div>
+        <div className="contactUs" onClick={() => setIsContactUs(!isContactUs)}>
           <img src={contactUs} alt="contactUs" />
           <span>Зв'язатись з нами</span>
         </div>
+
         <Link to={"basketPage"} className="basket">
           <img src={basket} alt="basket" />
 
@@ -65,6 +71,7 @@ export const Header = () => {
           </button>
         </div>
       </header>
+      {isContactUs && <ConnectUsModal setIsContactUs={setIsContactUs} />}
     </>
   );
 };
