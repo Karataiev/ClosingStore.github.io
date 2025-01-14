@@ -23,7 +23,7 @@ export const BasketPage = () => {
 
   return (
     <div className="basketPageContainer">
-      <BasketPageHeader />
+      <BasketPageHeader headerName="Кошик" />
 
       {basket.length !== 0 ? (
         <>

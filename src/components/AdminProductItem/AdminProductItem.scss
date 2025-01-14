@@ -1,0 +1,53 @@
+.adminProductItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 0.5px solid grey;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+    .productImg {
+      max-width: 50px;
+      max-height: 50px;
+      margin-right: 12px;
+    }
+  }
+
+  .availability {
+    select {
+      padding: 4px 12px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      outline: none;
+    }
+  }
+
+  .counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    .incr,
+    .decr {
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    .decr {
+      margin-bottom: 7px;
+    }
+
+    .count {
+      padding: 4px 12px;
+      border: 1px solid grey;
+      border-radius: 5px;
+    }
+  }
+}

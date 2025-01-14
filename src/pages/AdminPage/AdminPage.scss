@@ -1,0 +1,32 @@
+.adminPageContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 330px 0;
+  width: 100%;
+
+  .mainContentBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    padding: 20px;
+    gap: 20px;
+
+    .productsHeader {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
+      padding: 16px 0;
+
+      span {
+        font-size: 17px;
+        font-weight: 600;
+      }
+    }
+  }
+}

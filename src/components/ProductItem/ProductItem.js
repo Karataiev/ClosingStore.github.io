@@ -115,6 +115,8 @@ export const ProductItem = ({ item }) => {
           Купити
         </button>
       </div>
+
+      {/* <span className="unavailable">Не в наявності</span> */}
     </li>
   );
 };

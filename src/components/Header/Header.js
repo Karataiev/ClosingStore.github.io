@@ -66,8 +66,10 @@ export const Header = () => {
             Увійти
           </button>
           /
-          <button onClick={() => handleClickModal("Реєстрація")}>
-            Зареєструватись
+          <button
+            onClick={() => handleClickModal("Авторизація адміністратора")}
+          >
+            Увійти як адміністратор
           </button>
         </div>
       </header>

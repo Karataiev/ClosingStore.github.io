@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./RegLogModal.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { handleModal } from "../../redux/actions";
+import { Link } from "react-router-dom";
 
 export const RegLogModal = () => {
   const dispatch = useDispatch();
@@ -13,8 +14,33 @@ export const RegLogModal = () => {
   const [number, setNumber] = useState("");
   const [nameData, setNameData] = useState("");
 
+  const [isAdminValid, setIsAdminValid] = useState(false);
+  const [validClass, setValidClass] = useState("valid");
+
   const handleClose = () => {
     dispatch(handleModal(false));
+  };
+
+  const mockAdminData = {
+    email: "admin@gmail.com",
+    password: "admin123",
+  };
+
+  useEffect(() => {
+    if (email == mockAdminData.email && password === mockAdminData.password) {
+      setIsAdminValid(true);
+    } else {
+      setIsAdminValid(false);
+    }
+  }, [email, password]);
+
+  const handleAdminLogin = () => {
+    if (!isAdminValid) {
+      setValidClass("error");
+    } else {
+      setValidClass("valid");
+      handleClose();
+    }
   };
 
   return (
@@ -28,22 +54,32 @@ export const RegLogModal = () => {
         </div>
 
         <div className="modalContent">
-          {modalName === "Авторизація" ? (
-            <div className="modalContentLogin">
+          {modalName === "Авторизація" ||
+          modalName === "Авторизація адміністратора" ? (
+            <form className="modalContentLogin">
               <input
                 type="email"
                 value={email}
-                onChange={() => setEmail()}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Введіть email"
+                required
               />
               <input
                 type="password"
                 value={password}
-                onChange={() => setPassword()}
+                onChange={(e) => setPassword(e.target.value)}
                 placeholder="Введіть пароль"
+                required
               />
-              <button>Увійти</button>
-            </div>
+              <span className={validClass}>Неправильний Email або пароль</span>
+              <Link
+                to={isAdminValid && "/adminPage"}
+                className="button"
+                onClick={() => handleAdminLogin()}
+              >
+                Увійти
+              </Link>
+            </form>
           ) : (
             <div className="modalContentRegistration">
               <input
