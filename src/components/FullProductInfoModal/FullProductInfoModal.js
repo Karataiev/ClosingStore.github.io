@@ -42,7 +42,7 @@ export const FullProductInfoModal = () => {
           count: count,
           image: fullInfoItem.image,
           title: fullInfoItem.title,
-          size: fullInfoItem.getSize,
+          size: getSize,
           price: parseInt(fullInfoItem.price) * parseInt(count),
         })
       );
