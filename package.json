@@ -1,6 +1,7 @@
 {
   "name": "clothing_store",
   "version": "0.1.0",
+  "homepage": "https://karataiev.github.io/closing_store/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
